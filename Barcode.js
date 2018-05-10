@@ -7,7 +7,7 @@
 
 
 import React, {
-    PropTypes,
+   // PropTypes,
     Component,
 } from 'react'
 import {
@@ -33,17 +33,17 @@ export default class Barcode extends Component {
         scannerRectCornerColor: `#09BB0D`,
     }
 
-    static propTypes = {
-        ...View.propTypes,
-        onBarCodeRead: PropTypes.func.isRequired,
-        barCodeTypes: PropTypes.array,
-        scannerRectWidth: PropTypes.number,
-        scannerRectHeight: PropTypes.number,
-        scannerRectTop: PropTypes.number,
-        scannerRectLeft: PropTypes.number,
-        scannerLineInterval: PropTypes.number,
-        scannerRectCornerColor: PropTypes.string,
-    }
+//     static propTypes = {
+//         ...View.propTypes,
+//         onBarCodeRead: PropTypes.func.isRequired,
+//         barCodeTypes: PropTypes.array,
+//         scannerRectWidth: PropTypes.number,
+//         scannerRectHeight: PropTypes.number,
+//         scannerRectTop: PropTypes.number,
+//         scannerRectLeft: PropTypes.number,
+//         scannerLineInterval: PropTypes.number,
+//         scannerRectCornerColor: PropTypes.string,
+//     }
 
     render() {
         return (
